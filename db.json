@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "username": "pranoi",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "username": "suresh",
+      "password": "432",
+      "id": 2
+    },
+    {
+      "username": "adithyan a",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "username": "meera",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "username": "john",
+      "password": "3542452745",
+      "id": 5
+    },
+    {
+      "username": "juliet",
+      "password": "12345",
+      "id": 6
+    }
+  ],
+  "foods": [
+    {
+      "id": 1791898924670,
+      "name": "kfc",
+      "quantity": "1",
+      "location": "ekm",
+      "time": "1-2pm",
+      "type": "Non-Veg",
+      "phone": "525",
+      "donor": "pranoi",
+      "image": "https://loremflickr.com/600/400/food,meal?lock=1791898924670"
+    },
+    {
+      "id": 1791903361901,
+      "name": "chappathi",
+      "quantity": "10",
+      "location": "tvm",
+      "time": "10-1am",
+      "type": "Veg",
+      "phone": "255363",
+      "donor": "adithyan a",
+      "image": "https://loremflickr.com/600/400/food,meal?lock=1791903361901"
+    },
+    {
+      "id": 1793086102492,
+      "name": "KFC",
+      "quantity": "10",
+      "location": "USA",
+      "time": "2PM",
+      "type": "Non-Veg",
+      "phone": "81273675497",
+      "donor": "juliet",
+      "image": "https://loremflickr.com/600/400/food,meal?lock=1793086102492"
+    }
+  ]
+}

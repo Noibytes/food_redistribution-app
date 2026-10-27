@@ -1,0 +1,46 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: mintcream;
+  color: darkslategray;
+}
+
+
+.text-brand { color: seagreen; }
+.btn-brand { background-color: seagreen; color: white; border: none; }
+.btn-brand:hover { background-color: darkgreen; color: white; }
+.navbar-brand { 
+  font-weight: 800; font-size: 1.5rem; color: seagreen; 
+}
+
+
+.hero {
+  background: linear-gradient(135deg, darkgreen, seagreen 60%, orange);
+  color: white;
+  padding: 110px 0;
+}
+.hero h1 { font-size: 3.2rem; font-weight: 800; }
+
+
+.page-header { background-color: honeydew; padding: 50px 0; }
+
+
+.food-card, .info-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px lightgray;
+  transition: transform 0.2s;
+}
+.food-card:hover, .info-card:hover { transform: translateY(-6px); }
+.food-card img { height: 200px; object-fit: cover; border-radius: 16px 16px 0 0; }
+
+.icon-circle {
+  width: 64px; height: 64px; border-radius: 50%;
+  background-color: honeydew; color: seagreen;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.8rem; margin: 0 auto 15px auto;
+}
+
+.details-image { width: 100%; height: 380px; object-fit: cover; border-radius: 16px; }
+
+.footer { background-color: darkgreen; color: honeydew; padding: 40px 0 20px 0; }
+.footer a { color: honeydew; text-decoration: none; }
